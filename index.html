@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>informacao nutricional</title>
+    <style>*{margin: 0%;}
+        section {
+            background-color: rgb(245, 146, 17);
+            width: 1200px;
+        }
+        @media (max-width:1200px) {
+            section{
+                width: 1000px;
+                background-color: red;
+            }
+        }
+        @media (max-width:1024px) {
+            section{
+                width: 700px;
+                background-color: greenyellow;
+            }
+        }
+        @media (max-width:768px) {
+            section{
+                width: 400px;
+                background-color: gold;
+            }
+        }
+        @media (max-width:425px) {
+            section{
+                width: 320px;
+                background-color: green;
+            }
+        }
+        /*treinando a parte do responsivo*/
+    </style>
+</head>
+<body>
+    <section>
+    <h1>Tabela de informação nutricional de um leite condensado Italac.</h1>
+    <!-- nao encontrei ainda um substituto para o "border" no html-->
+    <table width="100%" border="1" style="text-align: center; background-color: rgb(146, 247, 144);" >
+
+        <tr>
+            <th><h2>Informação nutricional <br>Porção de 20g(1 colher e 1/2 de sopa)</h2></th>
+        </tr>
+        <!--nao consegui mesclar essa linha nas 3 colunas da tabela-->
+        <tr >
+            <th>Quantidade por porção</th>
+            <th></th>
+            <th>% VD*</th>
+        </tr>
+        <!--nao consegui mesclar a primeira th nas duas primeiras colunas da tabela.-->
+    <tr>
+        <td>Valor energético</td>
+        <td>61 kcal = 256 kj</td>
+        <td>3</td>
+    </tr>
+
+    <tr>
+        
+        <td>Carboidratos</td>
+        <td>11 g</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Proteínas</td>
+        <td>1,5 g</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Gorduras totais</td>
+        <td>1,2 g</td>
+        <td>2</td>
+    </tr>
+    <tr> <td>Gorduras saturadas</td>
+        <td>0,8 g</td>
+        <td>4</td>
+    </tr>
+    <tr> <td>Gorduras trans</td>
+        <td>0</td>
+        <td>**</td>
+    </tr>
+    <tr> <td>Fibra alimentar</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr> <td>Sódio</td>
+        <td>26 mg</td>
+        <td>1</td>
+    </tr>
+    <tr> <td>Calçio</td>
+        <td>58 mg</td>
+        <td>6</td>
+    </tr>
+
+    </table>
+    <p>
+        *% Valores diarios com base em uma dieta de 2.000 kcal ou 8.400 kj. Seus valores diarios podem ser maiores ou menores dependendo de suas necessidades energeticas.
+    </p>
+    <p>**VD nao estabelecido.</p>
+    <!--Nao encontrei a forma de mesclar a primeira linha da tabela. pra ficar centralizado.-->
+    <hr>
+    <p>criado por: <a href="hugosilvarj@hotmail.com"></a> </p>
+    </section>
+</body>
+</html>
